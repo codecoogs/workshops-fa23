@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('HussarBoldWebEdition-xq5O.otf') format('woff');
+}
+@media(min-width: 0px) {
+    /*Mobile Version*/
+}
+@media(min-width:300px) {
+    body {
+        text-align: center;
+        margin:0px;
+        background-image: linear-gradient(0deg, #48a6b7, white);
+        font-family: 'MyFont';
+
+    }
+    h1 {
+        font-size: 80px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+
+    #Title {
+        background-image: url("outdoors.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 3%;
+    }
+    #Title > img {
+        width:20%;
+        height:20%;
+        border-radius: 10px;
+        box-shadow: 7px 7px rgba(47, 47, 47, 0.8);
+    }
+
+
+    .Service {
+        margin: 2%;
+    }
+    div.Service > table {
+        display: inline-block;
+    }
+    div.Service tr {
+        height: 40px;
+    }
+    div.Service th {
+        background-color: rgb(246, 244, 121);
+    }
+    div.Service td {
+        background-color: rgb(110, 199, 110);
+    }
+    .book-now {
+        transition: 1s;
+    }
+    .book-now:hover {
+        background-color: darkgreen;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+    #Customer {
+        display: inline-block;
+        background-size: cover;
+        background-image: url("doggybackground.jpg");
+        padding: 2%;
+    }
+    div#Customer > table {
+        display: inline-block;
+        background-color: bisque;
+        padding: 1%;
+    }
+    #Customer > table tr td img {
+        width: 20vw;
+        height: 30vh;
+        margin: 0.5vw;
+        border-radius: 10px;
+        transition: 0.2s;
+    }
+    #Customer > table tr td img:hover {
+        box-shadow: 10px 10px rgba(48,48,48,0.8);
+    }
+
+
+    #Location > iframe {
+        width: 70vw;
+        height: 40vh;
+        border-style: hidden;
+        border-radius: 15px;
+    }
+
+    .Contact {
+        background-color: lightgray;
+        margin-top: 2%;
+        padding: 1%;
+    }
+}
